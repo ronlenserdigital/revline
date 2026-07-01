@@ -1,0 +1,15 @@
+# deps / build
+node_modules/
+dist/
+.vercel/
+
+# env & secrets — NEVER commit keys
+.env
+.env.*
+*.local
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
